@@ -1,0 +1,27 @@
+using System;
+
+namespace ConsoleAppTest
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int x = int.Parse(Console.ReadLine());
+
+            if (x >= 1 && x <= 100)
+            {
+                int x = 100;                          
+     for(int c = 1; c <= x;) {Console.WriteLine($"{c++} Abracadabra");}
+		
+            }
+            else
+            {
+                Console.WriteLine("Please Choose A Number between 1 and 100");
+            }
+
+            
+
+            
+         }
+    }
+}
